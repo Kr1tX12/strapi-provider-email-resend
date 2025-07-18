@@ -16,9 +16,9 @@ interface SendOptions {
 interface ProviderOptions {
     apiKey: string;
 }
-declare const _default: ({ config }: {
-    config: ProviderOptions & Settings;
-}) => {
-    send: (options: SendOptions) => Promise<void>;
+declare const _default: {
+    init(providerOptions: ProviderOptions, settings: Settings): {
+        send: (options: SendOptions) => Promise<void>;
+    };
 };
-export default _default;
+export = _default;

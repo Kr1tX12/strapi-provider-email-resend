@@ -21,7 +21,7 @@ interface ProviderOptions {
   apiKey: string;
 }
 
-export default {
+export = {
   init(providerOptions: ProviderOptions, settings: Settings) {
     const resend = new Resend(providerOptions.apiKey);
 
