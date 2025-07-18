@@ -1,0 +1,17 @@
+{
+  "name": "strapi-provider-email-resend",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "@types/react": "^19.1.8",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "resend": "^4.7.0"
+  }
+}
