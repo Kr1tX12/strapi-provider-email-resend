@@ -1,5 +1,5 @@
 {
-  "name": "strapi-provider-email-resend",
+  "name": "strapi-provider-email-resend-v5",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
